@@ -4,12 +4,14 @@ public class Driver
 {
     public static void main(String[] args) throws Exception
     {
-        
+        LoginPage.login();
+
         Penjualan penjualan = new Penjualan();
         Scanner keyboard = new Scanner(System.in);
+        //keyboard.next();
 
-        penjualan.setTanggal("12/12/2023");
-        penjualan.setWaktu("08:32:07 WIB");
+        // penjualan.setTanggal("12/12/2023");
+        // penjualan.setWaktu("08:32:07 WIB");
 
         System.out.println("Nama Pelanggan:");
         penjualan.setNamaPelanggan(keyboard.nextLine());
@@ -35,7 +37,9 @@ public class Driver
         penjualan.setTotalBayar();
 
         System.out.println("\n\n");
-        System.out.println("         SUPERMARKET ABC         ");
+        System.out.println("       SUPERMARKET ZAHARA        ");
+        System.out.println("Tanggal: " + penjualan.getTanggal());
+        System.out.println("Waktu:   " + penjualan.getWaktu());
         System.out.println("=================================");
         System.out.println("         DATA PELANGGAN          ");
         System.out.println("---------------------------------");
@@ -57,5 +61,7 @@ public class Driver
         
 
     }
+
+    
     
 }
