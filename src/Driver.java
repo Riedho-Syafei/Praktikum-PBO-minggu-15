@@ -19,6 +19,9 @@ public class Driver
         System.out.println("Nomor HP:");
         penjualan.setNoHP(keyboard.nextLine());
 
+        System.out.println("Alamat: ");
+        penjualan.setAlamat(keyboard.nextLine());
+
         System.out.println("Nomor faktur:");
         penjualan.setNoFaktur(keyboard.nextInt());
         keyboard.nextLine();
@@ -44,7 +47,7 @@ public class Driver
         System.out.println("         DATA PELANGGAN          ");
         System.out.println("---------------------------------");
         System.out.print("Nama Pelanggan: " + penjualan.getNamaPelanggan() + '\n');
-        System.out.println("Alamat: Jl Jagung no. 69, Utopia ");
+        System.out.print("Alamat: " + penjualan.getAlamat() + "\n");
         System.out.println("+++++++++++++++++++++++++++++++++");
         System.out.println("      DATA PEMBELIAN BARANG      ");
         System.out.println("---------------------------------");

@@ -1,4 +1,4 @@
-public interface SupermarketABC {
+public interface SupermarketZahara {
     String getNamaPelanggan();
     String getNoHP();
     int getNoFaktur();

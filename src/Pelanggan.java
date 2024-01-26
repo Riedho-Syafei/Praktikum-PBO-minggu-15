@@ -1,6 +1,7 @@
-public class Pelanggan implements SupermarketABC {
+public class Pelanggan implements SupermarketZahara {
     private String namaPelanggan;
     private String noHP;
+    private String alamat;
     private int noFaktur;
     private String namaBarang;
     private int hargaBarang;
@@ -15,6 +16,11 @@ public class Pelanggan implements SupermarketABC {
     public String getNoHP()
     {
         return this.noHP;
+    }
+    
+    public String getAlamat()
+    {
+        return this.alamat;
     }
     
     public int getNoFaktur()
@@ -52,6 +58,11 @@ public class Pelanggan implements SupermarketABC {
         this.noHP = noHP;
     }
 
+    public void setAlamat(String alamat)
+    {
+        this.alamat = alamat;
+    }
+    
     public void setNoFaktur(int faktur)
     {
         this.noFaktur = faktur;
