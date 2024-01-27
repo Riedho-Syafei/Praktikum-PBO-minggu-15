@@ -47,7 +47,8 @@ public class Driver
         System.out.println("         DATA PELANGGAN          ");
         System.out.println("---------------------------------");
         System.out.print("Nama Pelanggan: " + penjualan.getNamaPelanggan() + '\n');
-        System.out.print("Alamat: " + penjualan.getAlamat() + "\n");
+        System.out.print("No. HP        : " + penjualan.getNoHP() + '\n');
+        System.out.print("Alamat        : " + penjualan.getAlamat() + '\n');
         System.out.println("+++++++++++++++++++++++++++++++++");
         System.out.println("      DATA PEMBELIAN BARANG      ");
         System.out.println("---------------------------------");
